@@ -12,6 +12,29 @@ function generateHTML(teamstr) {
     </head>
 
     <body>
+        <style>
+            #heroBody {
+            background-color: #122B3F;
+            }
+
+            #heroTitle {
+            color: #F8FAFC;
+            }
+
+            #heroSub {
+            color: #F8FAFC;
+            }
+            .card{
+                color: #122B3F
+            }
+            .header{
+                background-color: #8EABBB;
+            }
+            .footer {
+                background-color: #8EABBB;
+            color: #122B3F;
+            }
+        </style>
 
         <!-- page title start -->
         <section class="hero is-medium is-dark has-text-centered">
