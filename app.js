@@ -114,10 +114,10 @@ async function init() {
         `<div class="column is-4">
                     <div class="card">
                         <header class="header
-                        has-text-centered has-background-dark">
-                        <h1 class="title has-text-white">${employee.title}</h1></header>
+                        has-text-centered">
+                        <h1 class="title is-uppercase">${employee.title}</h1></header>
                     
-                        <div class="card-content">
+                        <div class="card-content is-capitalized">
                         <ul>
                             <li class="subtitle"><h2><i class="far fa-user fa-2x"></i>  ${employee.name}</h2></li>
                             <li class="subtitle">ID:  ${employee.id}</li>
