@@ -59,7 +59,7 @@ async function getMainData() {
       } else if (response.title === "Engineer") {
         response2 = await inquirer.prompt({
           type: "input",
-          message: "What is your GitHub Username?",
+          message: "What is the Employee's GitHub Username?",
           name: "github",
         });
         const engineer = new Engineer(
@@ -96,6 +96,7 @@ async function getMainData() {
 }
 
 // function to run the program
+
 async function init() {
   try {
     //   wait to retrieve data from user input
@@ -128,7 +129,7 @@ async function init() {
                             <li class="subtitle is-capitalized"><h2><i class="far fa-user fa-2x"></i>  ${employee.name}</h2></li>
                             <li class="subtitle">ID:  ${employee.id}</li>
                             <li class="subtitle">Email:  ${employee.email}</li>
-                            <li class="subtitle is-capitalized">${titleInfo} </li>
+                            <li class="subtitle is-capitalized"> ${titleInfo}</li>
                         </ul>
                         </div>
                     </div>
